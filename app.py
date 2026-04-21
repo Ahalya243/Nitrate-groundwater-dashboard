@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import numpy as np
 
-# Page config
+#  Page config
 st.set_page_config(
     page_title="Nitrate in Groundwater – Europe",
     layout="wide",
@@ -145,7 +145,7 @@ with st.sidebar:
     selected_countries = st.multiselect(
         "Select countries to analyse",
         options=all_countries,
-        default=["Spain", "Germany", "France", "Italy", "Belgium", "Poland"],
+        default=["Spain", "Germany", "France", "Italy", "Belgium", "Poland","Bulgaria"],
         label_visibility="collapsed",
     )
 
