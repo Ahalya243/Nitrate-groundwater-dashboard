@@ -173,7 +173,7 @@ latest_year = df[df["country"] != "EU Average"]["year"].max()
 df_latest = df[(df["year"] == latest_year) & (df["country"] != "EU Average")]
 
 # Header
-st.markdown("# Nitrate in European Groundwater")
+st.markdown("# Nitrate in European Groundwater Dashboard")
 st.markdown(
     "Monitoring nitrate (NO₃) concentrations across Europe. "
     "The **EU drinking water threshold is 50 mg/L** — exceedance poses health risks and signals agricultural pollution pressure."
