@@ -5,14 +5,14 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import numpy as np
 
-# ── Page config ──────────────────────────────────────────────────────────────
+# Page config
 st.set_page_config(
     page_title="Nitrate in Groundwater – Europe",
     layout="wide",
     initial_sidebar_state="expanded",
 )
 
-# ── Custom CSS ────────────────────────────────────────────────────────────────
+# Custom CSS
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@300;400;500;600&display=swap');
@@ -89,7 +89,7 @@ section[data-testid="stSidebar"] .stSlider label {
 </style>
 """, unsafe_allow_html=True)
 
-# ── Load & clean data from Excel ─────────────────────────────────────────────
+# Load & clean data from Excel
 @st.cache_data
 def load_data():
     # Read raw Excel sheet
@@ -396,3 +396,5 @@ st.markdown(
     "Threshold reference: EU Nitrates Directive (91/676/EEC).</p>",
     unsafe_allow_html=True,
 )
+
+
