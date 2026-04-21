@@ -272,7 +272,7 @@ with col_left:
             legend=dict(orientation="h", yanchor="top", y=-0.18, xanchor="left", x=0, font=dict(color="#111827"), bgcolor="rgba(0,0,0,0)"),
             xaxis=dict(showgrid=False, title="Year", title_font=dict(color="#374151"), tickfont=dict(color="#374151"), linecolor="#d1d5db"),
             yaxis=dict(showgrid=True, gridcolor="#f3f4f6", title="mg NO₃/L", title_font=dict(color="#374151"), tickfont=dict(color="#374151")),
-            height=380,
+            height=400,
             font=dict(family="DM Sans", color="#111827"),
         )
         st.plotly_chart(fig_line, use_container_width=True)
