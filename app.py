@@ -269,7 +269,7 @@ with col_left:
 
         fig_line.update_layout(
             paper_bgcolor="white", plot_bgcolor="white",
-            margin=dict(b=80, b=90, l=50, r=20),
+            margin=dict(t=20, b=90, l=50, r=20),
             legend=dict(orientation="h", yanchor="top", y=-0.18, xanchor="left", x=0, font=dict(color="#111827"), bgcolor="rgba(0,0,0,0)"),
             xaxis=dict(showgrid=False, title="Year", title_font=dict(color="#374151"), tickfont=dict(color="#374151"), linecolor="#d1d5db"),
             yaxis=dict(showgrid=True, gridcolor="#f3f4f6", title="mg NO₃/L", title_font=dict(color="#374151"), tickfont=dict(color="#374151")),
